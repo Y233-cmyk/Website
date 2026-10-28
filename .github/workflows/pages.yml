@@ -31,3 +31,7 @@ jobs:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the public sitemap
+        env:
+          PUBLIC_SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 scripts/check-public-sitemap.py "$PUBLIC_SITE_URL"
