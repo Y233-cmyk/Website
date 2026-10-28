@@ -1,0 +1,454 @@
+{
+  "zh": {
+    "section/home": {
+      "file": "audio/neural-zh/section-home-5831291bb71f-v1.mp3",
+      "hash": "5831291bb71f8c870a1d8ba0cfacc6ae6501f790a65258851b73985d6461087b",
+      "duration": 17.04,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/intro": {
+      "file": "audio/neural-zh/section-intro-185bdcc539e3-v1.mp3",
+      "hash": "185bdcc539e3486b3a049771cce8fa5477b8a0c597e409a370dc1aeea90627ae",
+      "duration": 41.88,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/balance": {
+      "file": "audio/neural-zh/section-balance-908022f2e7fa-v1.mp3",
+      "hash": "908022f2e7fa47ae53a177172a586d8b395acc1ac63f2e4233c826cdb43060fb",
+      "duration": 103.66,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/recipes": {
+      "file": "audio/neural-zh/section-recipes-b3c84bbd004f-v1.mp3",
+      "hash": "b3c84bbd004f263e95169b2be6e703176db75a8953a325b9e410e46d2ed1be9b",
+      "duration": 174.43,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/share": {
+      "file": "audio/neural-zh/section-share-5e1951f60f4e-v1.mp3",
+      "hash": "5e1951f60f4eec8db1ed2aa226cb501c1246b4f28532310fe7c81ff46c55c44b",
+      "duration": 37.34,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/voice": {
+      "file": "audio/neural-zh/section-voice-9f5395f4e34e-v1.mp3",
+      "hash": "9f5395f4e34e61b7cfcaa1df4bc6b463d3c744df326ae7b4252f3ebb6f4ac1fc",
+      "duration": 12.34,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "section/footer": {
+      "file": "audio/neural-zh/section-footer-b0525e60d5ea-v1.mp3",
+      "hash": "b0525e60d5eaf618b07df38b0fd15be7eab02a54d871ad9bae4c3c17d205bc08",
+      "duration": 7.46,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/soup": {
+      "file": "audio/neural-zh/recipe-soup-eaa1dd60302f-v1.mp3",
+      "hash": "eaa1dd60302fd9fb7917ca32d024f4285ab95fe31f6505816bc354894a278c2d",
+      "duration": 84.7,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/fish": {
+      "file": "audio/neural-zh/recipe-fish-f5c18887b634-v1.mp3",
+      "hash": "f5c18887b634c62746f04be375741051c00be90ea33bdce410f1657c111720a3",
+      "duration": 73.78,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/rice": {
+      "file": "audio/neural-zh/recipe-rice-2dd5ed5892ba-v1.mp3",
+      "hash": "2dd5ed5892babb125f7d1a393a35755066411e44eba6bd868508e045930c80aa",
+      "duration": 110.21,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/dessert-yogurt": {
+      "file": "audio/neural-zh/recipe-dessert-yogurt-60b511f3f92f-v1.mp3",
+      "hash": "60b511f3f92f993ae79e792e80fad2fad5a2ea608a52f24fcebd617c19ab274d",
+      "duration": 70.03,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/tomato-tofu": {
+      "file": "audio/neural-zh/recipe-tomato-tofu-10ff0db566ac-v1.mp3",
+      "hash": "10ff0db566ac1574bbdd7de529153b2bc992e1326d70ad543f9f75f28baf2fb6",
+      "duration": 80.21,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/winter-melon": {
+      "file": "audio/neural-zh/recipe-winter-melon-390cc493a711-v1.mp3",
+      "hash": "390cc493a71166c1ab56adaaf3f4ea46f0858200d449f61502ab1ba659017cdf",
+      "duration": 104.5,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/steamed-eggs": {
+      "file": "audio/neural-zh/recipe-steamed-eggs-bef3b8d223f6-v1.mp3",
+      "hash": "bef3b8d223f61a08e4b21dfdb2694f54a5b181c66b5e879bafe2989a38ec279f",
+      "duration": 81.1,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/chicken-broccoli": {
+      "file": "audio/neural-zh/recipe-chicken-broccoli-79ac12da1409-v1.mp3",
+      "hash": "79ac12da1409b05987c7a678cdf64f74ed3197cb8e66a37564817c347343b386",
+      "duration": 90.6,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/red-bean": {
+      "file": "audio/neural-zh/recipe-red-bean-e4c8aae94eab-v1.mp3",
+      "hash": "e4c8aae94eab1c586410c3586aa82cd6307aabb045609a914ba7be1f0f0dde6a",
+      "duration": 82.85,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/pear": {
+      "file": "audio/neural-zh/recipe-pear-3555ac6b4cfa-v1.mp3",
+      "hash": "3555ac6b4cfa407080aa07697ead9f91592c779da5ec836828f248cc14475e0f",
+      "duration": 76.3,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/carrot-corn-soup": {
+      "file": "audio/neural-zh/recipe-carrot-corn-soup-c94a8a34a9ab-v1.mp3",
+      "hash": "c94a8a34a9ab5191fc050633bb4ebff707f626c855712264ef226c96754ab915",
+      "duration": 79.97,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/watercress-chicken": {
+      "file": "audio/neural-zh/recipe-watercress-chicken-d0f35470cdf0-v1.mp3",
+      "hash": "d0f35470cdf03b31430b3dbce279d7f30f47d8bf9d6e5673d3ed7d9a134f1d47",
+      "duration": 81.05,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/papaya-peanut-soup": {
+      "file": "audio/neural-zh/recipe-papaya-peanut-soup-0e0a5b16b14d-v1.mp3",
+      "hash": "0e0a5b16b14de6900665ed03d5024449e3ac42a465649dcaac5a8538f41bb7ad",
+      "duration": 75.84,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/pumpkin-lentil-soup": {
+      "file": "audio/neural-zh/recipe-pumpkin-lentil-soup-cb36d696f415-v1.mp3",
+      "hash": "cb36d696f415237bad9a85b224d5d466a8546fb7a811b20cff46ef4760c71591",
+      "duration": 82.54,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/daikon-tofu-soup": {
+      "file": "audio/neural-zh/recipe-daikon-tofu-soup-e75183b6b239-v1.mp3",
+      "hash": "e75183b6b239377a1bc249edb6e11d7499956cdbff9b23b90b35c6f1dee75c9b",
+      "duration": 84.46,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/shrimp-tofu": {
+      "file": "audio/neural-zh/recipe-shrimp-tofu-1b480d1fd64c-v1.mp3",
+      "hash": "1b480d1fd64c503a640ac9f539fcba487223c709cd6b1c03903b672e1fe0a9f7",
+      "duration": 86.3,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/beef-peppers": {
+      "file": "audio/neural-zh/recipe-beef-peppers-9f73aea65d2d-v1.mp3",
+      "hash": "9f73aea65d2d71e14de6058cce8864063c809c925441633070121fc1e0a96338",
+      "duration": 76.44,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/choy-sum-tofu": {
+      "file": "audio/neural-zh/recipe-choy-sum-tofu-0c5fc1ab02ce-v1.mp3",
+      "hash": "0c5fc1ab02ced38d3bcfafdcc12be394e0261f4b0fb8c94956dd0154e9258041",
+      "duration": 72.29,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/tomato-eggs": {
+      "file": "audio/neural-zh/recipe-tomato-eggs-5cb9a5dc692c-v1.mp3",
+      "hash": "5cb9a5dc692ceeac897e34112ceb400ef8f1cf3e54b747151d800018977378ec",
+      "duration": 95.47,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/mushroom-chicken": {
+      "file": "audio/neural-zh/recipe-mushroom-chicken-58780a335f5a-v1.mp3",
+      "hash": "58780a335f5a2e43d3652fc1eae0f3943d5d2dfd7e1314550ade21695fa770be",
+      "duration": 116.98,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/pumpkin-edamame-rice": {
+      "file": "audio/neural-zh/recipe-pumpkin-edamame-rice-be0efda62c8d-v1.mp3",
+      "hash": "be0efda62c8d727d09973382c20a8ea31797517f432b0a019651c6c1595361e5",
+      "duration": 96.29,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/black-sesame": {
+      "file": "audio/neural-zh/recipe-black-sesame-00643923ad8a-v1.mp3",
+      "hash": "00643923ad8aef7c2c0739ee6c28327a5beccb681ee133491c6282ea48038387",
+      "duration": 92.83,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/sweet-potato-ginger": {
+      "file": "audio/neural-zh/recipe-sweet-potato-ginger-69dfa37a6382-v1.mp3",
+      "hash": "69dfa37a638231cb74b9483f8c0be21df4281112f4864a1080d9a3d2a600f5f8",
+      "duration": 102.22,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/mung-bean-coconut": {
+      "file": "audio/neural-zh/recipe-mung-bean-coconut-0eba8e552c57-v1.mp3",
+      "hash": "0eba8e552c57a3d3fcf34c322737a61112299d931216b9d426f6ca9d22772b2b",
+      "duration": 79.58,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    },
+    "recipe/papaya-milk": {
+      "file": "audio/neural-zh/recipe-papaya-milk-7054e803dbd2-v1.mp3",
+      "hash": "7054e803dbd2ff7869acf511a97ed99bb540f6ade15ecbbd301bc4b71b71b42b",
+      "duration": 80.93,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-cantonese-hf-xiaomaiiwn"
+    }
+  },
+  "zh-CN": {
+    "section/home": {
+      "file": "audio/neural-zh-CN/section-home-005cb9790908-v1.mp3",
+      "hash": "005cb9790908c969583295315a3106203d91b76a4a80028ba4ce928e1153650e",
+      "duration": 19.34,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/intro": {
+      "file": "audio/neural-zh-CN/section-intro-a3860f0cbaf4-v1.mp3",
+      "hash": "a3860f0cbaf404c215ce5b30cda9317b416a50b7b3de60c9e657c461934c3d5e",
+      "duration": 42.6,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/balance": {
+      "file": "audio/neural-zh-CN/section-balance-642eb6479b20-v1.mp3",
+      "hash": "642eb6479b2099973f2479e8e1622ce16fafbe3824713d57d4aa2b7b8d35e6f2",
+      "duration": 107.9,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/recipes": {
+      "file": "audio/neural-zh-CN/section-recipes-266e527b1fc1-v1.mp3",
+      "hash": "266e527b1fc14a36bc18e75537c8d6b008bd96d69f6361c7ac200620fbfceee3",
+      "duration": 178.56,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/share": {
+      "file": "audio/neural-zh-CN/section-share-d744e952332a-v1.mp3",
+      "hash": "d744e952332a7649d5ebc01c214da0ed2cd604ee345b0ed9bb569b71061b56db",
+      "duration": 37.99,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/voice": {
+      "file": "audio/neural-zh-CN/section-voice-bddef0c1381f-v1.mp3",
+      "hash": "bddef0c1381f0637354f9eee4973b43f96fab38518ada668730156cebb9936c0",
+      "duration": 11.95,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "section/footer": {
+      "file": "audio/neural-zh-CN/section-footer-daa298352f12-v1.mp3",
+      "hash": "daa298352f12df2724ed3017c61a8d3a82ed82719e1010929a91b22b7e3cee84",
+      "duration": 7.78,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/soup": {
+      "file": "audio/neural-zh-CN/recipe-soup-895c3600cd69-v1.mp3",
+      "hash": "895c3600cd692d0c6de774ef273152d8149873cb1e3d4e914033975d9dba00a3",
+      "duration": 90.62,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/fish": {
+      "file": "audio/neural-zh-CN/recipe-fish-67e641fd3775-v1.mp3",
+      "hash": "67e641fd37750f2b0fd0dbc8e5b382ff6c531f0eb2fbb0a885e9432548c7e9c5",
+      "duration": 76.99,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/rice": {
+      "file": "audio/neural-zh-CN/recipe-rice-800acfce6ff9-v1.mp3",
+      "hash": "800acfce6ff93ae8efcbf2760c90506cd5095abee0f5f0923c3aaf8821f80797",
+      "duration": 114.41,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/dessert-yogurt": {
+      "file": "audio/neural-zh-CN/recipe-dessert-yogurt-5c2fc5c766c0-v1.mp3",
+      "hash": "5c2fc5c766c067f6d76f5f1909c652ebe12fb0aa8231b4eb1bf60173f2f66f28",
+      "duration": 72.65,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/tomato-tofu": {
+      "file": "audio/neural-zh-CN/recipe-tomato-tofu-cb739d014259-v1.mp3",
+      "hash": "cb739d014259cdf00c8709886bd5d44404299f3f0b076c5292462344b97e4094",
+      "duration": 84.53,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/winter-melon": {
+      "file": "audio/neural-zh-CN/recipe-winter-melon-2299c404bed0-v1.mp3",
+      "hash": "2299c404bed0abb2c277dd6c106a6e4d444775013f6bca100ece9d365a390da1",
+      "duration": 107.47,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/steamed-eggs": {
+      "file": "audio/neural-zh-CN/recipe-steamed-eggs-d901cc1f0a02-v1.mp3",
+      "hash": "d901cc1f0a02d1f1d24d8175f8b0a83b5ae082daab28cf421337f2bc831e30d2",
+      "duration": 83.52,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/chicken-broccoli": {
+      "file": "audio/neural-zh-CN/recipe-chicken-broccoli-1e3259c7e53f-v1.mp3",
+      "hash": "1e3259c7e53f5452a7f131da1c99cd1720a1cba2875b356cad2efbf629089a9f",
+      "duration": 97.42,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/red-bean": {
+      "file": "audio/neural-zh-CN/recipe-red-bean-6034fcc59aa7-v1.mp3",
+      "hash": "6034fcc59aa74223ccf9ebae2dcca20a4fb38b1cc44e9ed6126ed6f3ad50a763",
+      "duration": 87.48,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/pear": {
+      "file": "audio/neural-zh-CN/recipe-pear-05a5574f0844-v1.mp3",
+      "hash": "05a5574f08440f31d5439851dcf35e684af4b6807802ac1a801a1a8bc103fe4b",
+      "duration": 78.86,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/carrot-corn-soup": {
+      "file": "audio/neural-zh-CN/recipe-carrot-corn-soup-66c7925a779b-v1.mp3",
+      "hash": "66c7925a779bcbc343a286fba63ca3a8c1ba110138eb87b9ca314a33ac747d73",
+      "duration": 84.91,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/watercress-chicken": {
+      "file": "audio/neural-zh-CN/recipe-watercress-chicken-8170c0dd6055-v1.mp3",
+      "hash": "8170c0dd6055e4d67a0d6340a33b4f7aeac411ba21e7554fffceef84c0c9135b",
+      "duration": 82.15,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/papaya-peanut-soup": {
+      "file": "audio/neural-zh-CN/recipe-papaya-peanut-soup-f95faf1c5ba1-v1.mp3",
+      "hash": "f95faf1c5ba1cacc8c8eb98ae9bcb04693d69e186e61a20f231deec134ab4933",
+      "duration": 79.27,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/pumpkin-lentil-soup": {
+      "file": "audio/neural-zh-CN/recipe-pumpkin-lentil-soup-ab16d7a58821-v1.mp3",
+      "hash": "ab16d7a5882176172d024669b080a4cd84788cd33a51321ff473f82c133e3e0e",
+      "duration": 83.69,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/daikon-tofu-soup": {
+      "file": "audio/neural-zh-CN/recipe-daikon-tofu-soup-f5ed84c3141a-v1.mp3",
+      "hash": "f5ed84c3141a9ceb3a67bde1f5b8361c22baeb822fb530acc6010a57ef26c8ca",
+      "duration": 87.84,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/shrimp-tofu": {
+      "file": "audio/neural-zh-CN/recipe-shrimp-tofu-7414ddaa01f0-v1.mp3",
+      "hash": "7414ddaa01f019d119c46e2469060bf8c18dab025ee5e1e6558840c1f16e9dc1",
+      "duration": 89.64,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/beef-peppers": {
+      "file": "audio/neural-zh-CN/recipe-beef-peppers-508f562c6a11-v1.mp3",
+      "hash": "508f562c6a11887c6c70f6355c320527746719797039bbd2acdf11a8e31540b1",
+      "duration": 78.91,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/choy-sum-tofu": {
+      "file": "audio/neural-zh-CN/recipe-choy-sum-tofu-eddfd39b022a-v1.mp3",
+      "hash": "eddfd39b022a6de9ff9ab838de0751b053fadda7442d6e658906f7e9c9b3a491",
+      "duration": 74.23,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/tomato-eggs": {
+      "file": "audio/neural-zh-CN/recipe-tomato-eggs-432f51cd65cb-v1.mp3",
+      "hash": "432f51cd65cb1065471abc7d9a47fc2e05ce52f76adf9bd7db30933bdd2ba580",
+      "duration": 98.42,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/mushroom-chicken": {
+      "file": "audio/neural-zh-CN/recipe-mushroom-chicken-27d6bae0ff5e-v1.mp3",
+      "hash": "27d6bae0ff5e47a2bb53a044455c8dce12db14f8f8334a74eca3e14f967ab7e0",
+      "duration": 121.85,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/pumpkin-edamame-rice": {
+      "file": "audio/neural-zh-CN/recipe-pumpkin-edamame-rice-f2be087d7e62-v1.mp3",
+      "hash": "f2be087d7e62987177738df67bf0a55bac17eabc9419f755e056e8b3ebcb7ec6",
+      "duration": 98.28,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/black-sesame": {
+      "file": "audio/neural-zh-CN/recipe-black-sesame-891e45606058-v1.mp3",
+      "hash": "891e456060588d780bdb2340b00cf50f949abcd1fe9dd548c6a34c1e00ee3f85",
+      "duration": 96.02,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/sweet-potato-ginger": {
+      "file": "audio/neural-zh-CN/recipe-sweet-potato-ginger-eae8c7110b22-v1.mp3",
+      "hash": "eae8c7110b22f8ded79c47484e605e2dffb90ec1970c9f3b5082d6d2a3646e73",
+      "duration": 105.94,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/mung-bean-coconut": {
+      "file": "audio/neural-zh-CN/recipe-mung-bean-coconut-44491175cce9-v1.mp3",
+      "hash": "44491175cce9415f1e27e34b7b2c7d9652a07e3d6ece4a33cebbd87f437b6ef9",
+      "duration": 83.16,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    },
+    "recipe/papaya-milk": {
+      "file": "audio/neural-zh-CN/recipe-papaya-milk-b9304ff725bc-v1.mp3",
+      "hash": "b9304ff725bccdd3ba577a34d8d6aabe585ee5cbf431e16fcf38492504352829",
+      "duration": 86.11,
+      "engine": "VITS neural / sherpa-onnx",
+      "model": "vits-melo-tts-zh_en"
+    }
+  }
+}

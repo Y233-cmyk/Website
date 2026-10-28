@@ -1,43 +1,33 @@
 # Root & Rice / 本·米
 
-A three-language Cantonese food and nutrition site with 25 built-in recipes, horizontal browsing, category filters, local favourites and personal recipes. The owner's supplied photos and traditional recipe revisions are retained.
+A three-language Cantonese food and nutrition website with 25 built-in recipes, horizontal browsing, category filters, local favourites and editable visitor recipes. The owner's supplied photographs and traditional recipe revisions are retained. Calorie notes are ingredient-based per-serving estimates, not measured nutrition labels.
 
-## Free static website
+## Run and publish
 
-Serve this folder with `python3 -m http.server 3000`, or publish it using the included GitHub Pages workflow. No paid speech provider, secret, backend or package installation is needed for visitors. Run `npm run check` for JavaScript syntax and `python3 scripts/build-static.py` for the deployment artifact.
+Run `python3 -m http.server 3000`, or push `main` to publish through the included GitHub Pages workflow. `npm run check` validates JavaScript and `python3 scripts/build-static.py` assembles `_site`. No Azure account, secret, speech API or server backend is needed for visitors.
 
-`RootRice.html` is the bundled HTML version. Its recordings are separate MP3s in `audio/`; use the live site, or download the complete repository if opening it locally. Downloading only the HTML does not also download 96 audio files.
+## Read-aloud and voice commands
 
-## Reading and voice commands
+All seven content sections and all 25 built-in recipes can be read in full. English uses browser speech. Cantonese/Traditional Chinese and Mandarin/Simplified Chinese wait for the browser voice list and match language tags including zh-Hant-HK, yue-HK and zh-Hans-CN. Every chunk stays in the selected language; an English voice is never selected for Chinese text.
 
-All 25 built-in recipes and all seven website sections have English, Cantonese and Mandarin MP3 narration. Audio uses free offline eSpeak NG voices, which sound robotic. Visitors do not need matching installed speech voices. Playback has native Play/Pause/seek controls, and the page has Read/Next/Stop buttons. The local Teachable Machine model supports Read / 阅读, Next / 下一页 and Stop / 停止 after microphone permission is granted over HTTPS or localhost.
+If a Chinese voice is missing, fails or does not start, `neural-audio.js` uses a corresponding newly generated neural Chinese MP3. There are 32 Cantonese and 32 Mandarin fallback recordings in `audio/neural-*`, with text hashes that prevent stale wording. This is not the earlier robotic eSpeak audio; those archived files are excluded from deployment. English remains on the fluent browser reader. See `audio/neural-notices/README.md` for model sources, checksum verification and licence provenance.
 
-Visitor-uploaded recipes are text-only. Their reader buttons are absent, spoken Read is rejected when one is open, and the section extractor excludes visitor cards and typed form values. Personal recipes and favourites stay in browser storage and are not shared publicly.
+Recordings cover the current sections, recipe ingredients, all steps, benefits, calorie estimates and notes. Browser voices read edited text immediately; fallback recordings need regenerating after content changes. HOSTING.md documents the build process. The ONNX models run only on the author's build machine and are not downloaded by visitors.
 
-Each recording has the SHA-256 hash of the exact current narration text. If text changes, playback asks for a refreshed recording rather than reading an old recipe. See [HOSTING.md](HOSTING.md) for regenerating audio and enabling Pages.
+Read / 阅读 starts the current section or open built-in recipe. Next / 下一页 moves on; Stop / 停止 cancels reading. Buttons work without a microphone. Microphone access is requested only after Enable microphone is clicked, over HTTPS or localhost, and the visitor may decline. Recognition uses the uploaded Teachable Machine model; actual speaker/accent accuracy requires real-speaker testing.
 
-## Content and photos
+Visitor recipes remain text-only, editable and local to their browser. Narration rejects them, section extraction excludes their cards and typed values, and no visitor recipe text is sent to a speech service. This is not an account-based public recipe-sharing backend.
 
-The collection has eight soups, ten mains and seven desserts. The owner's 25 photo payloads remain unchanged. Scale-down presentation avoids magnifying/cropping the small originals, but cannot recover detail absent from the source. Calorie values are approximate per-serving kitchen estimates with explicit serving counts and assumptions, not certified measurements; calculations are in `recipe-energy-estimates.json`. Health notes describe nutrients without promising cures.
+## Editing and photos
 
-Cooking references consulted include the public HowToCook guides for sweet-and-sour pork, tomato eggs, corn/rib soup, scallion oil, lettuce and mango-pomelo dessert. These are cooking references, not medical sources. The requested traditional mango-pomelo version uses sago rather than the chia in that reference. Major food safety temperatures, allergens and frying considerations are included.
+Public mode hides the local template editor. Editing/export controls are not secure server administration. Uploaded photos are retained unchanged and displayed without excessive enlargement/cropping; source detail is limited by the original resolution. `recipe-energy-estimates.json` records nutrition assumptions and serving counts.
 
-## Design and licences
+## Design and third-party files
 
-Opening motion is adapted from GreenSock's https://codepen.io/GreenSock/pen/YzbPYMx . The horizontal recipe reveal is inspired by https://github.com/Aqro/gooey-hover-codrops . This is a lightweight SVG/CSS adaptation, not the original Three.js shader. Vendored TensorFlow, speech-commands and OpenCC files retain their licence notices. Offline recording generation uses eSpeak NG; only generated MP3 output is deployed, not the speech-tool binary.
+Opening motion is adapted from https://codepen.io/GreenSock/pen/YzbPYMx . The horizontal image reveal is inspired by https://github.com/Aqro/gooey-hover-codrops . These are lightweight native/SVG adaptations, not the original Three.js implementation. Vendored TensorFlow, speech-commands and OpenCC files retain their licence notices. Chinese fallback audio uses the verified official sherpa-onnx Cantonese VITS and Mandarin MeloTTS conversions; model weights are not deployed.
 
-The public version hides local template-editor controls. Editor functionality is local/export-based, not authenticated remote site administration. Do not treat it as a secure public content-management backend.
+Native voices vary by device. Neural fallback is synthetic, not a human recording; pronunciation and subjective fluency should be checked by listeners. Automated tests verify language routing, complete content, playback and controls rather than proving a voice sounds human.
 
-## Validation and deployment result
+## Chinese routing verification
 
-All 96 MP3s decode fully. Browser checks verified all 96 text hashes, actual MP3 playback and end-of-playback in English/Cantonese/Mandarin with `speechSynthesis` unavailable, section Play/Stop, gallery-filter stability, model startup with a simulated microphone, text-only visitor submissions and stale-text rejection. Twelve simulated model-score sequences exercised English and Chinese Read→Stop/Next labels across the three interface locales, including interruption before the normal Read cooldown. These checks do not establish accuracy for a real speaker or accent; the exported Teachable Machine model determines that.
-
-The first GitHub Pages workflow reached publication configuration but GitHub rejected automatic site creation with `Resource not accessible by integration`. The repository owner must select **Settings → Pages → Source: GitHub Actions**, then rerun **Publish Root and Rice**. Files/recordings are uploaded; a successful live deployment is not yet verified.
-
-## Current narration update: fluent browser voices restored
-
-The owner preferred the earlier fluent browser narration to the robotic eSpeak recordings. The active build now uses `browser-audio.js` and excludes `audio/` and `static-audio.js` from the Pages artifact. Those files remain in Git history/repository as an archive only. Current website text is read dynamically, so recording regeneration and recording hashes are no longer required for the active reader.
-
-All seven sections and full built-in recipes retain sequential short-utterance narration, preferred natural voices, three locales, Read/Next/Stop and text-only visitor recipes. Browser support/installed voices still determine available voice quality; no identical-voice guarantee is made. Detailed current hosting/read-aloud instructions are in HOSTING.md and supersede the earlier prerecorded setup.
-
-Regression checks confirmed exact full text for every section and a complete updated recipe in all three locales, natural-voice preference, final steps/calories, Stop cancellation, visitor exclusion, no MP3 or speech API requests and no JavaScript errors. Speech completion was simulated; actual sound quality depends on the visitor's available voices.
+Checks covered script-tag Cantonese/Mandarin voices, delayed voice arrival, strict exclusion of English voices for Chinese, selected-language number chunks, and fallback selection. All 64 fixed Chinese targets matched their current text hashes. Actual Cantonese/Mandarin MP3 playback and completion worked with only English voices exposed, and Chinese playback also worked with browser speech synthesis unavailable. Full native section/recipe narration, English preservation, Stop, text-only visitor recipes, stale-recording rejection, no microphone request during reading and no paid speech API requests were checked. All 64 MP3 files decoded fully. Automated playback checks do not prove subjective voice quality or real-speaker recognition accuracy.
