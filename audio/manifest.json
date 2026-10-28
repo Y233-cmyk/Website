@@ -1,0 +1,680 @@
+{
+  "en": {
+    "section/home": {
+      "file": "audio/en/section-home-a285f698cc20.mp3",
+      "hash": "a285f698cc205a95a84443eee2809157cb3fb9e0a5d18fadd2b2195209304817",
+      "duration": 25.6,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/intro": {
+      "file": "audio/en/section-intro-4297c0daa248.mp3",
+      "hash": "4297c0daa24885251327d547853d933044a32fd50df399692f274a16c07dfb39",
+      "duration": 52.92,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/balance": {
+      "file": "audio/en/section-balance-6d2119d186fa.mp3",
+      "hash": "6d2119d186fabe09dea2a667489c74a8b25215857e8ac3ad6f2706419b8f27d0",
+      "duration": 129.44,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/recipes": {
+      "file": "audio/en/section-recipes-e1b90ef0aeb4.mp3",
+      "hash": "e1b90ef0aeb41b10c637583f938a5d28691cc8c8b59df6dbe0c6c2b37a890043",
+      "duration": 295.26,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/share": {
+      "file": "audio/en/section-share-f1fec0cba1ef.mp3",
+      "hash": "f1fec0cba1ef3edf531a3468d56a0c79c243e27e3a08b014619c837af34dd99a",
+      "duration": 50.94,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/voice": {
+      "file": "audio/en/section-voice-210e7e837b62.mp3",
+      "hash": "210e7e837b6282f37db2294a5a17ce1304151e7b389d990a7e8c657283867fe0",
+      "duration": 15.73,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/footer": {
+      "file": "audio/en/section-footer-af77ca52b164.mp3",
+      "hash": "af77ca52b1649b70e176add9e2c352bac3af4f9b641e8ceb2233a8177e90bcdd",
+      "duration": 12.41,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/soup": {
+      "file": "audio/en/recipe-soup-b6af63deb87c.mp3",
+      "hash": "b6af63deb87c88d8625503cd279545d4ff4187936b91c93c26f98c6b4e64d7ad",
+      "duration": 132.57,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/fish": {
+      "file": "audio/en/recipe-fish-d42854be03ab.mp3",
+      "hash": "d42854be03ab2e8606ee29379f1b42dc01e33c948db525f11979654b1bf2833f",
+      "duration": 106.97,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/rice": {
+      "file": "audio/en/recipe-rice-1e23f6ab4dff.mp3",
+      "hash": "1e23f6ab4dff1912481279e60123f4b812c01b4ac6a302457f3b2d67644cb12e",
+      "duration": 170.37,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/dessert-yogurt": {
+      "file": "audio/en/recipe-dessert-yogurt-2aa92340d010.mp3",
+      "hash": "2aa92340d010f46690161b3f0b43073c780d2969fe1948f6970352f822b277da",
+      "duration": 105.56,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-tofu": {
+      "file": "audio/en/recipe-tomato-tofu-5b40d623ac02.mp3",
+      "hash": "5b40d623ac02106b7444d7b51a143f796b8e12e376f48a66a19b891e175625e2",
+      "duration": 128.52,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/winter-melon": {
+      "file": "audio/en/recipe-winter-melon-58e1a3cc0e25.mp3",
+      "hash": "58e1a3cc0e25a23a8e38df17817f19357c27d30e4506e4d749408d14bb382ba5",
+      "duration": 159.01,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/steamed-eggs": {
+      "file": "audio/en/recipe-steamed-eggs-e3d2b4605762.mp3",
+      "hash": "e3d2b460576281888b779263525164b36e19485a4c2bfb52bae73d5ab1f5f053",
+      "duration": 116.82,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/chicken-broccoli": {
+      "file": "audio/en/recipe-chicken-broccoli-3f0e6494d99f.mp3",
+      "hash": "3f0e6494d99fc2b15a54eee1f88fc3232c865383676398c00850e08d14444b37",
+      "duration": 144.22,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/red-bean": {
+      "file": "audio/en/recipe-red-bean-d18ef0b823c9.mp3",
+      "hash": "d18ef0b823c9af6ddf5a84471a0e6e50b8a29adc005f2d4adeaa68f8d3eb2bac",
+      "duration": 122.28,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pear": {
+      "file": "audio/en/recipe-pear-177e72301c14.mp3",
+      "hash": "177e72301c1460dce78bd59ff41d44d7716a8884decc3e0cba5eb26f89e47bbd",
+      "duration": 112.09,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/carrot-corn-soup": {
+      "file": "audio/en/recipe-carrot-corn-soup-ce446549682a.mp3",
+      "hash": "ce446549682a21e93aaeb429f9852e14614c9bcc4eb597191b3fba2c6b9325c4",
+      "duration": 122.8,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/watercress-chicken": {
+      "file": "audio/en/recipe-watercress-chicken-1ab6fd0657d7.mp3",
+      "hash": "1ab6fd0657d7a102179fb6f8e4db21dc756ad9d2eddc1d6b356947d74c004df3",
+      "duration": 116.27,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-peanut-soup": {
+      "file": "audio/en/recipe-papaya-peanut-soup-e94e42967c72.mp3",
+      "hash": "e94e42967c723f93bc529420a14d983854acbf3d42f866989302b11913233608",
+      "duration": 114.18,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-lentil-soup": {
+      "file": "audio/en/recipe-pumpkin-lentil-soup-d39b1f20fe6f.mp3",
+      "hash": "d39b1f20fe6f23ddd64f205bdadcda99eff6c8ef3483dd24baf8178078876ae2",
+      "duration": 116.95,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/daikon-tofu-soup": {
+      "file": "audio/en/recipe-daikon-tofu-soup-4e15098baffe.mp3",
+      "hash": "4e15098baffe87527816ff4da72f8b7ac98155f1bc6a9e5fea3eba8ffe95e8e7",
+      "duration": 129.96,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/shrimp-tofu": {
+      "file": "audio/en/recipe-shrimp-tofu-eb305adfb0ca.mp3",
+      "hash": "eb305adfb0ca2043c1071157d2ee25d2070a8734ae00c0f2429aff7367d863b5",
+      "duration": 137.12,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/beef-peppers": {
+      "file": "audio/en/recipe-beef-peppers-336abecbad97.mp3",
+      "hash": "336abecbad972f65c2822f76f26a872e83f2ef10df8634951de009bf11892b4f",
+      "duration": 115.15,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/choy-sum-tofu": {
+      "file": "audio/en/recipe-choy-sum-tofu-6cb94ad50ca1.mp3",
+      "hash": "6cb94ad50ca1157b28cae40908000ed6f1f7ed9f2cda900d01e5d9dfb7b301c3",
+      "duration": 108.28,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-eggs": {
+      "file": "audio/en/recipe-tomato-eggs-37c9a256cac2.mp3",
+      "hash": "37c9a256cac208c389502790b18a120af9c4a4d3845a92e4dd7991f8d04c2fbe",
+      "duration": 144.61,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mushroom-chicken": {
+      "file": "audio/en/recipe-mushroom-chicken-6a2c5bb453bd.mp3",
+      "hash": "6a2c5bb453bd4fc28a3ad04228d3778babc0aa826b606dbbfec03ba0d4af64ee",
+      "duration": 183.72,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-edamame-rice": {
+      "file": "audio/en/recipe-pumpkin-edamame-rice-1c42003ea8e6.mp3",
+      "hash": "1c42003ea8e69164e7fcee736ab8d396df4d260ba903bd09a8684a9fae2a52c8",
+      "duration": 146.49,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/black-sesame": {
+      "file": "audio/en/recipe-black-sesame-33ae78889f90.mp3",
+      "hash": "33ae78889f90af7259ccb17c95324508fb9fd1e00391848402837eef82cb7f48",
+      "duration": 139.26,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/sweet-potato-ginger": {
+      "file": "audio/en/recipe-sweet-potato-ginger-ed738a8a40ad.mp3",
+      "hash": "ed738a8a40ad10de0bbf85fab82a344d15c9c583f4206c749786fce5f9e45e99",
+      "duration": 158.01,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mung-bean-coconut": {
+      "file": "audio/en/recipe-mung-bean-coconut-08c94bb14ed5.mp3",
+      "hash": "08c94bb14ed5fa3c5651d55bd7fef8a53047d33555e912392a4e2f6a8cead4ee",
+      "duration": 123.38,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-milk": {
+      "file": "audio/en/recipe-papaya-milk-2a93c8d166de.mp3",
+      "hash": "2a93c8d166de018233e84cc1e9ad26c0562e2889562827f4f8106108e3965160",
+      "duration": 120.5,
+      "voice": "en-us",
+      "engine": "eSpeak NG 1.52.0"
+    }
+  },
+  "zh": {
+    "section/home": {
+      "file": "audio/zh/section-home-5831291bb71f.mp3",
+      "hash": "5831291bb71f8c870a1d8ba0cfacc6ae6501f790a65258851b73985d6461087b",
+      "duration": 27.87,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/intro": {
+      "file": "audio/zh/section-intro-185bdcc539e3.mp3",
+      "hash": "185bdcc539e3486b3a049771cce8fa5477b8a0c597e409a370dc1aeea90627ae",
+      "duration": 62.9,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/balance": {
+      "file": "audio/zh/section-balance-908022f2e7fa.mp3",
+      "hash": "908022f2e7fa47ae53a177172a586d8b395acc1ac63f2e4233c826cdb43060fb",
+      "duration": 152.97,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/recipes": {
+      "file": "audio/zh/section-recipes-b3c84bbd004f.mp3",
+      "hash": "b3c84bbd004f263e95169b2be6e703176db75a8953a325b9e410e46d2ed1be9b",
+      "duration": 284.58,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/share": {
+      "file": "audio/zh/section-share-5e1951f60f4e.mp3",
+      "hash": "5e1951f60f4eec8db1ed2aa226cb501c1246b4f28532310fe7c81ff46c55c44b",
+      "duration": 55.64,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/voice": {
+      "file": "audio/zh/section-voice-9f5395f4e34e.mp3",
+      "hash": "9f5395f4e34e61b7cfcaa1df4bc6b463d3c744df326ae7b4252f3ebb6f4ac1fc",
+      "duration": 18.52,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/footer": {
+      "file": "audio/zh/section-footer-b0525e60d5ea.mp3",
+      "hash": "b0525e60d5eaf618b07df38b0fd15be7eab02a54d871ad9bae4c3c17d205bc08",
+      "duration": 11.68,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/soup": {
+      "file": "audio/zh/recipe-soup-eaa1dd60302f.mp3",
+      "hash": "eaa1dd60302fd9fb7917ca32d024f4285ab95fe31f6505816bc354894a278c2d",
+      "duration": 131.45,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/fish": {
+      "file": "audio/zh/recipe-fish-f5c18887b634.mp3",
+      "hash": "f5c18887b634c62746f04be375741051c00be90ea33bdce410f1657c111720a3",
+      "duration": 111.93,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/rice": {
+      "file": "audio/zh/recipe-rice-2dd5ed5892ba.mp3",
+      "hash": "2dd5ed5892babb125f7d1a393a35755066411e44eba6bd868508e045930c80aa",
+      "duration": 169.64,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/dessert-yogurt": {
+      "file": "audio/zh/recipe-dessert-yogurt-60b511f3f92f.mp3",
+      "hash": "60b511f3f92f993ae79e792e80fad2fad5a2ea608a52f24fcebd617c19ab274d",
+      "duration": 106.89,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-tofu": {
+      "file": "audio/zh/recipe-tomato-tofu-10ff0db566ac.mp3",
+      "hash": "10ff0db566ac1574bbdd7de529153b2bc992e1326d70ad543f9f75f28baf2fb6",
+      "duration": 123.19,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/winter-melon": {
+      "file": "audio/zh/recipe-winter-melon-390cc493a711.mp3",
+      "hash": "390cc493a71166c1ab56adaaf3f4ea46f0858200d449f61502ab1ba659017cdf",
+      "duration": 159.5,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/steamed-eggs": {
+      "file": "audio/zh/recipe-steamed-eggs-bef3b8d223f6.mp3",
+      "hash": "bef3b8d223f61a08e4b21dfdb2694f54a5b181c66b5e879bafe2989a38ec279f",
+      "duration": 123.61,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/chicken-broccoli": {
+      "file": "audio/zh/recipe-chicken-broccoli-79ac12da1409.mp3",
+      "hash": "79ac12da1409b05987c7a678cdf64f74ed3197cb8e66a37564817c347343b386",
+      "duration": 141.69,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/red-bean": {
+      "file": "audio/zh/recipe-red-bean-e4c8aae94eab.mp3",
+      "hash": "e4c8aae94eab1c586410c3586aa82cd6307aabb045609a914ba7be1f0f0dde6a",
+      "duration": 125.7,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pear": {
+      "file": "audio/zh/recipe-pear-3555ac6b4cfa.mp3",
+      "hash": "3555ac6b4cfa407080aa07697ead9f91592c779da5ec836828f248cc14475e0f",
+      "duration": 116.35,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/carrot-corn-soup": {
+      "file": "audio/zh/recipe-carrot-corn-soup-c94a8a34a9ab.mp3",
+      "hash": "c94a8a34a9ab5191fc050633bb4ebff707f626c855712264ef226c96754ab915",
+      "duration": 124.47,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/watercress-chicken": {
+      "file": "audio/zh/recipe-watercress-chicken-d0f35470cdf0.mp3",
+      "hash": "d0f35470cdf03b31430b3dbce279d7f30f47d8bf9d6e5673d3ed7d9a134f1d47",
+      "duration": 121.55,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-peanut-soup": {
+      "file": "audio/zh/recipe-papaya-peanut-soup-0e0a5b16b14d.mp3",
+      "hash": "0e0a5b16b14de6900665ed03d5024449e3ac42a465649dcaac5a8538f41bb7ad",
+      "duration": 116.56,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-lentil-soup": {
+      "file": "audio/zh/recipe-pumpkin-lentil-soup-cb36d696f415.mp3",
+      "hash": "cb36d696f415237bad9a85b224d5d466a8546fb7a811b20cff46ef4760c71591",
+      "duration": 124.21,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/daikon-tofu-soup": {
+      "file": "audio/zh/recipe-daikon-tofu-soup-e75183b6b239.mp3",
+      "hash": "e75183b6b239377a1bc249edb6e11d7499956cdbff9b23b90b35c6f1dee75c9b",
+      "duration": 128.44,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/shrimp-tofu": {
+      "file": "audio/zh/recipe-shrimp-tofu-1b480d1fd64c.mp3",
+      "hash": "1b480d1fd64c503a640ac9f539fcba487223c709cd6b1c03903b672e1fe0a9f7",
+      "duration": 131.97,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/beef-peppers": {
+      "file": "audio/zh/recipe-beef-peppers-9f73aea65d2d.mp3",
+      "hash": "9f73aea65d2d71e14de6058cce8864063c809c925441633070121fc1e0a96338",
+      "duration": 116.79,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/choy-sum-tofu": {
+      "file": "audio/zh/recipe-choy-sum-tofu-0c5fc1ab02ce.mp3",
+      "hash": "0c5fc1ab02ced38d3bcfafdcc12be394e0261f4b0fb8c94956dd0154e9258041",
+      "duration": 110.63,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-eggs": {
+      "file": "audio/zh/recipe-tomato-eggs-5cb9a5dc692c.mp3",
+      "hash": "5cb9a5dc692ceeac897e34112ceb400ef8f1cf3e54b747151d800018977378ec",
+      "duration": 147.67,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mushroom-chicken": {
+      "file": "audio/zh/recipe-mushroom-chicken-58780a335f5a.mp3",
+      "hash": "58780a335f5a2e43d3652fc1eae0f3943d5d2dfd7e1314550ade21695fa770be",
+      "duration": 182.41,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-edamame-rice": {
+      "file": "audio/zh/recipe-pumpkin-edamame-rice-be0efda62c8d.mp3",
+      "hash": "be0efda62c8d727d09973382c20a8ea31797517f432b0a019651c6c1595361e5",
+      "duration": 146.21,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/black-sesame": {
+      "file": "audio/zh/recipe-black-sesame-00643923ad8a.mp3",
+      "hash": "00643923ad8aef7c2c0739ee6c28327a5beccb681ee133491c6282ea48038387",
+      "duration": 142.37,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/sweet-potato-ginger": {
+      "file": "audio/zh/recipe-sweet-potato-ginger-69dfa37a6382.mp3",
+      "hash": "69dfa37a638231cb74b9483f8c0be21df4281112f4864a1080d9a3d2a600f5f8",
+      "duration": 155.69,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mung-bean-coconut": {
+      "file": "audio/zh/recipe-mung-bean-coconut-0eba8e552c57.mp3",
+      "hash": "0eba8e552c57a3d3fcf34c322737a61112299d931216b9d426f6ca9d22772b2b",
+      "duration": 122.07,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-milk": {
+      "file": "audio/zh/recipe-papaya-milk-7054e803dbd2.mp3",
+      "hash": "7054e803dbd2ff7869acf511a97ed99bb540f6ade15ecbbd301bc4b71b71b42b",
+      "duration": 126.41,
+      "voice": "yue",
+      "engine": "eSpeak NG 1.52.0"
+    }
+  },
+  "zh-CN": {
+    "section/home": {
+      "file": "audio/zh-CN/section-home-005cb9790908.mp3",
+      "hash": "005cb9790908c969583295315a3106203d91b76a4a80028ba4ce928e1153650e",
+      "duration": 31.24,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/intro": {
+      "file": "audio/zh-CN/section-intro-a3860f0cbaf4.mp3",
+      "hash": "a3860f0cbaf404c215ce5b30cda9317b416a50b7b3de60c9e657c461934c3d5e",
+      "duration": 72.28,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/balance": {
+      "file": "audio/zh-CN/section-balance-642eb6479b20.mp3",
+      "hash": "642eb6479b2099973f2479e8e1622ce16fafbe3824713d57d4aa2b7b8d35e6f2",
+      "duration": 177.19,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/recipes": {
+      "file": "audio/zh-CN/section-recipes-266e527b1fc1.mp3",
+      "hash": "266e527b1fc14a36bc18e75537c8d6b008bd96d69f6361c7ac200620fbfceee3",
+      "duration": 315.09,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/share": {
+      "file": "audio/zh-CN/section-share-d744e952332a.mp3",
+      "hash": "d744e952332a7649d5ebc01c214da0ed2cd604ee345b0ed9bb569b71061b56db",
+      "duration": 62.9,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/voice": {
+      "file": "audio/zh-CN/section-voice-bddef0c1381f.mp3",
+      "hash": "bddef0c1381f0637354f9eee4973b43f96fab38518ada668730156cebb9936c0",
+      "duration": 22.28,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "section/footer": {
+      "file": "audio/zh-CN/section-footer-daa298352f12.mp3",
+      "hash": "daa298352f12df2724ed3017c61a8d3a82ed82719e1010929a91b22b7e3cee84",
+      "duration": 12.33,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/soup": {
+      "file": "audio/zh-CN/recipe-soup-895c3600cd69.mp3",
+      "hash": "895c3600cd692d0c6de774ef273152d8149873cb1e3d4e914033975d9dba00a3",
+      "duration": 152.56,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/fish": {
+      "file": "audio/zh-CN/recipe-fish-67e641fd3775.mp3",
+      "hash": "67e641fd37750f2b0fd0dbc8e5b382ff6c531f0eb2fbb0a885e9432548c7e9c5",
+      "duration": 132.47,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/rice": {
+      "file": "audio/zh-CN/recipe-rice-800acfce6ff9.mp3",
+      "hash": "800acfce6ff93ae8efcbf2760c90506cd5095abee0f5f0923c3aaf8821f80797",
+      "duration": 196.94,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/dessert-yogurt": {
+      "file": "audio/zh-CN/recipe-dessert-yogurt-5c2fc5c766c0.mp3",
+      "hash": "5c2fc5c766c067f6d76f5f1909c652ebe12fb0aa8231b4eb1bf60173f2f66f28",
+      "duration": 124.81,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-tofu": {
+      "file": "audio/zh-CN/recipe-tomato-tofu-cb739d014259.mp3",
+      "hash": "cb739d014259cdf00c8709886bd5d44404299f3f0b076c5292462344b97e4094",
+      "duration": 143.86,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/winter-melon": {
+      "file": "audio/zh-CN/recipe-winter-melon-2299c404bed0.mp3",
+      "hash": "2299c404bed0abb2c277dd6c106a6e4d444775013f6bca100ece9d365a390da1",
+      "duration": 185.97,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/steamed-eggs": {
+      "file": "audio/zh-CN/recipe-steamed-eggs-d901cc1f0a02.mp3",
+      "hash": "d901cc1f0a02d1f1d24d8175f8b0a83b5ae082daab28cf421337f2bc831e30d2",
+      "duration": 146.57,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/chicken-broccoli": {
+      "file": "audio/zh-CN/recipe-chicken-broccoli-1e3259c7e53f.mp3",
+      "hash": "1e3259c7e53f5452a7f131da1c99cd1720a1cba2875b356cad2efbf629089a9f",
+      "duration": 166.95,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/red-bean": {
+      "file": "audio/zh-CN/recipe-red-bean-6034fcc59aa7.mp3",
+      "hash": "6034fcc59aa74223ccf9ebae2dcca20a4fb38b1cc44e9ed6126ed6f3ad50a763",
+      "duration": 149.03,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pear": {
+      "file": "audio/zh-CN/recipe-pear-05a5574f0844.mp3",
+      "hash": "05a5574f08440f31d5439851dcf35e684af4b6807802ac1a801a1a8bc103fe4b",
+      "duration": 136.05,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/carrot-corn-soup": {
+      "file": "audio/zh-CN/recipe-carrot-corn-soup-66c7925a779b.mp3",
+      "hash": "66c7925a779bcbc343a286fba63ca3a8c1ba110138eb87b9ca314a33ac747d73",
+      "duration": 144.04,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/watercress-chicken": {
+      "file": "audio/zh-CN/recipe-watercress-chicken-8170c0dd6055.mp3",
+      "hash": "8170c0dd6055e4d67a0d6340a33b4f7aeac411ba21e7554fffceef84c0c9135b",
+      "duration": 143.57,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-peanut-soup": {
+      "file": "audio/zh-CN/recipe-papaya-peanut-soup-f95faf1c5ba1.mp3",
+      "hash": "f95faf1c5ba1cacc8c8eb98ae9bcb04693d69e186e61a20f231deec134ab4933",
+      "duration": 133.49,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-lentil-soup": {
+      "file": "audio/zh-CN/recipe-pumpkin-lentil-soup-ab16d7a58821.mp3",
+      "hash": "ab16d7a5882176172d024669b080a4cd84788cd33a51321ff473f82c133e3e0e",
+      "duration": 144.67,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/daikon-tofu-soup": {
+      "file": "audio/zh-CN/recipe-daikon-tofu-soup-f5ed84c3141a.mp3",
+      "hash": "f5ed84c3141a9ceb3a67bde1f5b8361c22baeb822fb530acc6010a57ef26c8ca",
+      "duration": 153.91,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/shrimp-tofu": {
+      "file": "audio/zh-CN/recipe-shrimp-tofu-7414ddaa01f0.mp3",
+      "hash": "7414ddaa01f019d119c46e2469060bf8c18dab025ee5e1e6558840c1f16e9dc1",
+      "duration": 155.66,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/beef-peppers": {
+      "file": "audio/zh-CN/recipe-beef-peppers-508f562c6a11.mp3",
+      "hash": "508f562c6a11887c6c70f6355c320527746719797039bbd2acdf11a8e31540b1",
+      "duration": 136.54,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/choy-sum-tofu": {
+      "file": "audio/zh-CN/recipe-choy-sum-tofu-eddfd39b022a.mp3",
+      "hash": "eddfd39b022a6de9ff9ab838de0751b053fadda7442d6e658906f7e9c9b3a491",
+      "duration": 129.75,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/tomato-eggs": {
+      "file": "audio/zh-CN/recipe-tomato-eggs-432f51cd65cb.mp3",
+      "hash": "432f51cd65cb1065471abc7d9a47fc2e05ce52f76adf9bd7db30933bdd2ba580",
+      "duration": 172.07,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mushroom-chicken": {
+      "file": "audio/zh-CN/recipe-mushroom-chicken-27d6bae0ff5e.mp3",
+      "hash": "27d6bae0ff5e47a2bb53a044455c8dce12db14f8f8334a74eca3e14f967ab7e0",
+      "duration": 213.52,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/pumpkin-edamame-rice": {
+      "file": "audio/zh-CN/recipe-pumpkin-edamame-rice-f2be087d7e62.mp3",
+      "hash": "f2be087d7e62987177738df67bf0a55bac17eabc9419f755e056e8b3ebcb7ec6",
+      "duration": 170.71,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/black-sesame": {
+      "file": "audio/zh-CN/recipe-black-sesame-891e45606058.mp3",
+      "hash": "891e456060588d780bdb2340b00cf50f949abcd1fe9dd548c6a34c1e00ee3f85",
+      "duration": 164.05,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/sweet-potato-ginger": {
+      "file": "audio/zh-CN/recipe-sweet-potato-ginger-eae8c7110b22.mp3",
+      "hash": "eae8c7110b22f8ded79c47484e605e2dffb90ec1970c9f3b5082d6d2a3646e73",
+      "duration": 180.43,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/mung-bean-coconut": {
+      "file": "audio/zh-CN/recipe-mung-bean-coconut-44491175cce9.mp3",
+      "hash": "44491175cce9415f1e27e34b7b2c7d9652a07e3d6ece4a33cebbd87f437b6ef9",
+      "duration": 141.09,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    },
+    "recipe/papaya-milk": {
+      "file": "audio/zh-CN/recipe-papaya-milk-b9304ff725bc.mp3",
+      "hash": "b9304ff725bccdd3ba577a34d8d6aabe585ee5cbf431e16fcf38492504352829",
+      "duration": 146.02,
+      "voice": "cmn",
+      "engine": "eSpeak NG 1.52.0"
+    }
+  }
+}

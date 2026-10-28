@@ -1,0 +1,4 @@
+// Written Chinese uses standard phrasing; the selected locale also sets narration.
+const toMandarinScript=OpenCC.Converter({from:'hk',to:'cn'});
+function simplifyChinese(text){return toMandarinScript(String(text)).replace(/乳酪/g,'酸奶').replace(/粟米/g,'玉米').replace(/粟粉/g,'玉米淀粉').replace(/豉油/g,'酱油').replace(/雪柜/g,'冰箱').replace(/麻油/g,'芝麻油').replace(/致敏原/g,'过敏原').replace(/营养师/g,'营养师')}
+function simplifyVisibleText(root=document.body){if(document.documentElement.lang!=='zh-CN')return;const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){return node.parentElement?.closest('script,style,textarea,input,select')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT}});let node;while(node=walker.nextNode()){const value=simplifyChinese(node.nodeValue);if(value!==node.nodeValue)node.nodeValue=value}}

@@ -1,0 +1,847 @@
+{
+  "soup": {
+    "servings": 4,
+    "kcal": 275,
+    "total": 1103,
+    "ingredients": [
+      {
+        "name": "edible pork from 450 g bone-in ribs",
+        "grams": 250,
+        "kcalPer100g": 290
+      },
+      {
+        "name": "lotus root",
+        "grams": 500,
+        "kcalPer100g": 74
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot, including meat and lotus root; bones are not eaten. Assumes about 250 g edible pork from 450 g bone-in ribs.",
+      "按一鍋分 4 份、連肉和蓮藕計，骨不計食用；假設 450 克帶骨排骨約有 250 克可食肉。"
+    ],
+    "variants": []
+  },
+  "winter-melon": {
+    "servings": 4,
+    "kcal": 75,
+    "total": 307,
+    "ingredients": [
+      {
+        "name": "winter melon",
+        "grams": 400,
+        "kcalPer100g": 13
+      },
+      {
+        "name": "shiitake",
+        "grams": 150,
+        "kcalPer100g": 34
+      },
+      {
+        "name": "tofu",
+        "grams": 200,
+        "kcalPer100g": 80
+      },
+      {
+        "name": "oil",
+        "grams": 5,
+        "kcalPer100g": 884
+      }
+    ],
+    "assumptions": [
+      "Base soup without meat or shrimp, one quarter of the pot. Optional additions change the energy.",
+      "按一鍋分 4 份、不加肉或蝦的基本湯計，選配材料會改變熱量。"
+    ],
+    "variants": [
+      [
+        "With shrimp: about 105 kcal; with pork: 120 kcal; with both: 145 kcal per serving.",
+        "加蝦每份約 105 千卡；加肉約 120 千卡；兩樣都加約 145 千卡。"
+      ]
+    ]
+  },
+  "carrot-corn-soup": {
+    "servings": 4,
+    "kcal": 240,
+    "total": 964,
+    "ingredients": [
+      {
+        "name": "edible pork",
+        "grams": 250,
+        "kcalPer100g": 290
+      },
+      {
+        "name": "corn kernels, excluding cob",
+        "grams": 150,
+        "kcalPer100g": 86
+      },
+      {
+        "name": "carrot",
+        "grams": 250,
+        "kcalPer100g": 41
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot, with meat, carrot and edible corn kernels; bones and corn cobs excluded.",
+      "按一鍋分 4 份、連肉、紅蘿蔔及可食粟米粒計，不計骨和粟米芯。"
+    ],
+    "variants": []
+  },
+  "papaya-peanut-soup": {
+    "servings": 4,
+    "kcal": 235,
+    "total": 948,
+    "ingredients": [
+      {
+        "name": "edible pork",
+        "grams": 250,
+        "kcalPer100g": 290
+      },
+      {
+        "name": "papaya",
+        "grams": 500,
+        "kcalPer100g": 43
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot, including meat and papaya; assumes 250 g edible pork.",
+      "按一鍋分 4 份、連木瓜和肉計，假設有 250 克可食豬肉。"
+    ],
+    "variants": []
+  },
+  "pumpkin-lentil-soup": {
+    "servings": 4,
+    "kcal": 200,
+    "total": 802,
+    "ingredients": [
+      {
+        "name": "edible pork",
+        "grams": 250,
+        "kcalPer100g": 290
+      },
+      {
+        "name": "Chinese olive edible flesh",
+        "grams": 60,
+        "kcalPer100g": 115
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot, including pork; olive stones and bones excluded. Olive size and how much flesh is eaten vary.",
+      "按一鍋分 4 份、連肉計，不計橄欖核和骨；橄欖大小及吃下果肉的多少會有差異。"
+    ],
+    "variants": []
+  },
+  "daikon-tofu-soup": {
+    "servings": 4,
+    "kcal": 125,
+    "total": 500,
+    "ingredients": [
+      {
+        "name": "edible skinless chicken from 500 g bone-in pieces",
+        "grams": 300,
+        "kcalPer100g": 144
+      },
+      {
+        "name": "dried cordyceps flowers",
+        "grams": 20,
+        "kcalPer100g": 300
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot including chicken and fungi; assumes about 300 g edible skinless chicken from the bone-in pieces.",
+      "按一鍋分 4 份、連雞肉和蟲草花計，假設帶骨雞件約有 300 克可食去皮雞肉。"
+    ],
+    "variants": []
+  },
+  "tomato-tofu": {
+    "servings": 4,
+    "kcal": 255,
+    "total": 1018,
+    "ingredients": [
+      {
+        "name": "edible skinless chicken",
+        "grams": 350,
+        "kcalPer100g": 144
+      },
+      {
+        "name": "unsweetened coconut water",
+        "grams": 800,
+        "kcalPer100g": 19
+      },
+      {
+        "name": "fresh coconut flesh",
+        "grams": 100,
+        "kcalPer100g": 354
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot including chicken, broth and coconut flesh; excludes bones and assumes skinless edible chicken.",
+      "按一鍋分 4 份、連雞肉、湯和椰肉計，不計骨，並以可食去皮雞肉估算。"
+    ],
+    "variants": []
+  },
+  "rice": {
+    "servings": 2,
+    "kcal": 480,
+    "total": 960,
+    "ingredients": [
+      {
+        "name": "dry brown rice",
+        "grams": 150,
+        "kcalPer100g": 370
+      },
+      {
+        "name": "shiitake",
+        "grams": 150,
+        "kcalPer100g": 34
+      },
+      {
+        "name": "onion",
+        "grams": 100,
+        "kcalPer100g": 40
+      },
+      {
+        "name": "oil",
+        "grams": 10,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "fresh lean pork",
+        "grams": 150,
+        "kcalPer100g": 143
+      },
+      {
+        "name": "soy sauce",
+        "grams": 5,
+        "kcalPer100g": 53
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "Fresh-pork option, half the rice recipe; excludes side vegetables. Cured-pork and shrimp options are listed separately.",
+      "以鮮肉版本、整份飯分 2 份計，不包括另配青菜。臘肉及鮮蝦版本另列。"
+    ],
+    "variants": [
+      [
+        "Cured-pork option: about 525 kcal; shrimp option: 440 kcal per serving.",
+        "臘肉版本每份約 525 千卡；鮮蝦版本約 440 千卡。"
+      ]
+    ]
+  },
+  "chicken-broccoli": {
+    "servings": 3,
+    "kcal": 250,
+    "total": 745,
+    "ingredients": [
+      {
+        "name": "dry white rice",
+        "grams": 120,
+        "kcalPer100g": 365
+      },
+      {
+        "name": "raw prawns",
+        "grams": 150,
+        "kcalPer100g": 85
+      },
+      {
+        "name": "white fish",
+        "grams": 150,
+        "kcalPer100g": 82
+      },
+      {
+        "name": "sesame oil",
+        "grams": 5,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "ginger",
+        "grams": 15,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One third of the congee, made with water rather than a rich stock; no extra side dishes.",
+      "按粥分 3 份、用清水而非濃上湯計，不包括另配小菜。"
+    ],
+    "variants": []
+  },
+  "shrimp-tofu": {
+    "servings": 2,
+    "kcal": 370,
+    "total": 736,
+    "ingredients": [
+      {
+        "name": "skinless boneless thigh",
+        "grams": 400,
+        "kcalPer100g": 144
+      },
+      {
+        "name": "oil",
+        "grams": 14,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "scallions",
+        "grams": 60,
+        "kcalPer100g": 32
+      },
+      {
+        "name": "ginger",
+        "grams": 15,
+        "kcalPer100g": 80
+      },
+      {
+        "name": "soy sauce",
+        "grams": 10,
+        "kcalPer100g": 53
+      }
+    ],
+    "assumptions": [
+      "One thigh with half the scallion oil, using boneless skinless chicken; excludes rice and greens. Skin-on thighs can be appreciably higher.",
+      "每份 1 隻去骨去皮雞腿，連一半蔥油計，不包括米飯和菜；帶皮雞腿的熱量可明顯較高。"
+    ],
+    "variants": []
+  },
+  "choy-sum-tofu": {
+    "servings": 3,
+    "kcal": 50,
+    "total": 157,
+    "ingredients": [
+      {
+        "name": "lettuce",
+        "grams": 400,
+        "kcalPer100g": 15
+      },
+      {
+        "name": "oil",
+        "grams": 10,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "garlic",
+        "grams": 6,
+        "kcalPer100g": 149
+      }
+    ],
+    "assumptions": [
+      "One third of the vegetable side, including its share of oil.",
+      "按蔬菜配菜分 3 份計，包括各份分到的油。"
+    ],
+    "variants": []
+  },
+  "beef-peppers": {
+    "servings": 3,
+    "kcal": 90,
+    "total": 274,
+    "ingredients": [
+      {
+        "name": "sweet potato leaves",
+        "grams": 400,
+        "kcalPer100g": 42
+      },
+      {
+        "name": "oil",
+        "grams": 10,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "garlic",
+        "grams": 12,
+        "kcalPer100g": 149
+      }
+    ],
+    "assumptions": [
+      "One third of the vegetable side, including oil; excludes rice.",
+      "按蔬菜配菜分 3 份計，包括油，不包括米飯。"
+    ],
+    "variants": []
+  },
+  "tomato-eggs": {
+    "servings": 2,
+    "kcal": 190,
+    "total": 378,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "grams": 150,
+        "kcalPer100g": 143
+      },
+      {
+        "name": "tomatoes",
+        "grams": 400,
+        "kcalPer100g": 18
+      },
+      {
+        "name": "oil",
+        "grams": 10,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "scallion",
+        "grams": 10,
+        "kcalPer100g": 32
+      }
+    ],
+    "assumptions": [
+      "Savoury version, half the dish; no rice or added sugar.",
+      "以鹹口版本、整碟分 2 份計，不包括米飯或添加糖。"
+    ],
+    "variants": [
+      [
+        "Adding 1–2 tsp sugar to the whole pan adds about 10–15 kcal per serving.",
+        "全鍋加 1–2 茶匙糖，每份約多 10–15 千卡。"
+      ]
+    ]
+  },
+  "mushroom-chicken": {
+    "servings": 3,
+    "kcal": 445,
+    "total": 1338,
+    "ingredients": [
+      {
+        "name": "pork",
+        "grams": 300,
+        "kcalPer100g": 200
+      },
+      {
+        "name": "egg retained in coating",
+        "grams": 30,
+        "kcalPer100g": 143
+      },
+      {
+        "name": "cornflour retained",
+        "grams": 50,
+        "kcalPer100g": 381
+      },
+      {
+        "name": "frying oil absorbed plus sauce oil",
+        "grams": 30,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "pineapple",
+        "grams": 150,
+        "kcalPer100g": 50
+      },
+      {
+        "name": "pepper",
+        "grams": 150,
+        "kcalPer100g": 26
+      },
+      {
+        "name": "onion",
+        "grams": 50,
+        "kcalPer100g": 40
+      },
+      {
+        "name": "ketchup",
+        "grams": 45,
+        "kcalPer100g": 112
+      },
+      {
+        "name": "sugar",
+        "grams": 12.5,
+        "kcalPer100g": 400
+      },
+      {
+        "name": "vinegar",
+        "grams": 30,
+        "kcalPer100g": 18
+      }
+    ],
+    "assumptions": [
+      "One third of the dish, excluding rice. Approximation assumes 30 g oil is retained overall; the amount absorbed during frying is uncertain.",
+      "按整碟分 3 份計，不包括米飯；假設全菜合共保留約 30 克油，實際炸油吸收量較難確定。"
+    ],
+    "variants": [
+      [
+        "Allow a broad range of roughly 420–560 kcal per serving, depending on pork cut, coating and oil absorption.",
+        "按肉部位、裹粉和吸油量，每份可約在 420–560 千卡之間。"
+      ]
+    ]
+  },
+  "pumpkin-edamame-rice": {
+    "servings": 2,
+    "kcal": 350,
+    "total": 705,
+    "ingredients": [
+      {
+        "name": "beef",
+        "grams": 250,
+        "kcalPer100g": 200
+      },
+      {
+        "name": "gai lan",
+        "grams": 350,
+        "kcalPer100g": 26
+      },
+      {
+        "name": "oil",
+        "grams": 10,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "cornflour",
+        "grams": 3,
+        "kcalPer100g": 381
+      },
+      {
+        "name": "oyster sauce",
+        "grams": 5,
+        "kcalPer100g": 70
+      },
+      {
+        "name": "soy sauce",
+        "grams": 5,
+        "kcalPer100g": 53
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "Half the beef and vegetables, including sauce; excludes the rice served alongside.",
+      "按牛肉和菜分 2 份計，包括醬汁，不包括另配米飯。"
+    ],
+    "variants": []
+  },
+  "pear": {
+    "servings": 3,
+    "kcal": 95,
+    "total": 288,
+    "ingredients": [
+      {
+        "name": "edible pear flesh",
+        "grams": 400,
+        "kcalPer100g": 57
+      },
+      {
+        "name": "rock sugar",
+        "grams": 15,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "Three small bowls including pear and all the sweetened liquid; about 145 kcal each if divided into two larger bowls.",
+      "按 3 小碗、連梨肉和全部糖水計；若分 2 大碗，每碗約 145 千卡。"
+    ],
+    "variants": []
+  },
+  "black-sesame": {
+    "servings": 2,
+    "kcal": 185,
+    "total": 365,
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "grams": 400,
+        "kcalPer100g": 61
+      },
+      {
+        "name": "egg white",
+        "grams": 60,
+        "kcalPer100g": 52
+      },
+      {
+        "name": "sugar",
+        "grams": 22.5,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "One of two bowls, using full-fat milk and 22.5 g sugar in the whole recipe.",
+      "按 2 碗計，每份 1 碗；用全脂奶，全份糖量 22.5 克。"
+    ],
+    "variants": []
+  },
+  "sweet-potato-ginger": {
+    "servings": 4,
+    "kcal": 225,
+    "total": 908,
+    "ingredients": [
+      {
+        "name": "mango",
+        "grams": 400,
+        "kcalPer100g": 60
+      },
+      {
+        "name": "dry sago",
+        "grams": 40,
+        "kcalPer100g": 358
+      },
+      {
+        "name": "pomelo",
+        "grams": 100,
+        "kcalPer100g": 38
+      },
+      {
+        "name": "canned coconut milk",
+        "grams": 150,
+        "kcalPer100g": 230
+      },
+      {
+        "name": "whole milk",
+        "grams": 200,
+        "kcalPer100g": 61
+      },
+      {
+        "name": "sugar",
+        "grams": 5,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "One of four small bowls, using canned coconut milk, dairy milk and 5 g optional sugar. Lighter coconut drinks give a different result.",
+      "按 4 小碗計，用罐裝椰奶、牛奶及可選糖 5 克；較稀椰子飲品的結果會不同。"
+    ],
+    "variants": []
+  },
+  "mung-bean-coconut": {
+    "servings": 3,
+    "kcal": 170,
+    "total": 515,
+    "ingredients": [
+      {
+        "name": "black sesame",
+        "grams": 60,
+        "kcalPer100g": 573
+      },
+      {
+        "name": "dry rice",
+        "grams": 25,
+        "kcalPer100g": 365
+      },
+      {
+        "name": "sugar",
+        "grams": 20,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "One of three small bowls, including 20 g sugar in the whole recipe.",
+      "按 3 小碗計，全份加糖 20 克。"
+    ],
+    "variants": []
+  },
+  "papaya-milk": {
+    "servings": 2,
+    "kcal": 175,
+    "total": 352,
+    "ingredients": [
+      {
+        "name": "papaya",
+        "grams": 300,
+        "kcalPer100g": 43
+      },
+      {
+        "name": "whole milk",
+        "grams": 300,
+        "kcalPer100g": 61
+      },
+      {
+        "name": "rock sugar",
+        "grams": 10,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "One of two bowls, using full-fat milk and 10 g optional rock sugar in total.",
+      "按 2 碗計，用全脂奶，全份可選冰糖 10 克。"
+    ],
+    "variants": []
+  },
+  "fish": {
+    "servings": 2,
+    "kcal": 160,
+    "total": 317,
+    "ingredients": [
+      {
+        "name": "white fish",
+        "grams": 300,
+        "kcalPer100g": 82
+      },
+      {
+        "name": "sesame oil",
+        "grams": 5,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "ginger",
+        "grams": 15,
+        "kcalPer100g": 80
+      },
+      {
+        "name": "scallion",
+        "grams": 30,
+        "kcalPer100g": 32
+      },
+      {
+        "name": "soy sauce",
+        "grams": 10,
+        "kcalPer100g": 53
+      }
+    ],
+    "assumptions": [
+      "One fillet with half the seasoning; excludes rice and vegetables suggested for serving.",
+      "每份 1 件魚柳及一半調味，不包括建議另配的米飯和蔬菜。"
+    ],
+    "variants": []
+  },
+  "dessert-yogurt": {
+    "servings": 2,
+    "kcal": 165,
+    "total": 330,
+    "ingredients": [
+      {
+        "name": "mango flesh",
+        "grams": 200,
+        "kcalPer100g": 60
+      },
+      {
+        "name": "plain whole milk yogurt",
+        "grams": 250,
+        "kcalPer100g": 61
+      },
+      {
+        "name": "optional pistachios",
+        "grams": 10,
+        "kcalPer100g": 562
+      },
+      {
+        "name": "lime juice",
+        "grams": 5,
+        "kcalPer100g": 25
+      }
+    ],
+    "assumptions": [
+      "One of two cups; assumes 200 g prepared mango and includes the optional nuts. Without nuts, about 135 kcal.",
+      "按 2 杯計，假設取芒果肉 200 克，並包括可選果仁；不加果仁每份約 135 千卡。"
+    ],
+    "variants": []
+  },
+  "watercress-chicken": {
+    "servings": 4,
+    "kcal": 125,
+    "total": 508,
+    "ingredients": [
+      {
+        "name": "skinless chicken thigh",
+        "grams": 300,
+        "kcalPer100g": 144
+      },
+      {
+        "name": "watercress",
+        "grams": 250,
+        "kcalPer100g": 11
+      },
+      {
+        "name": "carrot",
+        "grams": 100,
+        "kcalPer100g": 41
+      },
+      {
+        "name": "ginger",
+        "grams": 10,
+        "kcalPer100g": 80
+      }
+    ],
+    "assumptions": [
+      "One quarter of the pot including the chicken and vegetables, not broth alone.",
+      "按一鍋分 4 份、連雞肉和蔬菜計，並非只計清湯。"
+    ],
+    "variants": []
+  },
+  "steamed-eggs": {
+    "servings": 3,
+    "kcal": 95,
+    "total": 292,
+    "ingredients": [
+      {
+        "name": "eggs",
+        "grams": 150,
+        "kcalPer100g": 143
+      },
+      {
+        "name": "mushrooms",
+        "grams": 80,
+        "kcalPer100g": 34
+      },
+      {
+        "name": "sesame oil",
+        "grams": 5,
+        "kcalPer100g": 884
+      },
+      {
+        "name": "soy sauce",
+        "grams": 5,
+        "kcalPer100g": 53
+      },
+      {
+        "name": "scallion",
+        "grams": 10,
+        "kcalPer100g": 32
+      }
+    ],
+    "assumptions": [
+      "One third of the shared egg dish; excludes rice and other sides.",
+      "按共享蒸蛋分 3 份計，不包括米飯及其他配菜。"
+    ],
+    "variants": []
+  },
+  "red-bean": {
+    "servings": 4,
+    "kcal": 140,
+    "total": 554,
+    "ingredients": [
+      {
+        "name": "dry adzuki beans",
+        "grams": 150,
+        "kcalPer100g": 329
+      },
+      {
+        "name": "sugar",
+        "grams": 15,
+        "kcalPer100g": 400
+      }
+    ],
+    "assumptions": [
+      "One of four bowls, using 15 g sugar in the pot and eating the beans, not just the liquid.",
+      "按 4 碗計，全鍋用糖 15 克，並連紅豆吃，不是只喝糖水。"
+    ],
+    "variants": []
+  }
+}
