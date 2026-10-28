@@ -7,6 +7,6 @@
     "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
     "start": "python3 -m http.server 3000 --bind 0.0.0.0",
     "build": "python3 scripts/build-static.py",
-    "check": "node --check app.js && node --check voice.js && node --check static-audio.js && node --check narration-content.js && node --check traditional-revisions.js && node --check owner-content.js && node --check audio/manifest.js"
+    "check": "node --check app.js && node --check voice.js && node --check browser-audio.js && node --check narration-content.js && node --check traditional-revisions.js && node --check owner-content.js && node --check audio/manifest.js"
   }
 }

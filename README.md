@@ -33,3 +33,11 @@ The public version hides local template-editor controls. Editor functionality is
 All 96 MP3s decode fully. Browser checks verified all 96 text hashes, actual MP3 playback and end-of-playback in English/Cantonese/Mandarin with `speechSynthesis` unavailable, section Play/Stop, gallery-filter stability, model startup with a simulated microphone, text-only visitor submissions and stale-text rejection. Twelve simulated model-score sequences exercised English and Chinese Read→Stop/Next labels across the three interface locales, including interruption before the normal Read cooldown. These checks do not establish accuracy for a real speaker or accent; the exported Teachable Machine model determines that.
 
 The first GitHub Pages workflow reached publication configuration but GitHub rejected automatic site creation with `Resource not accessible by integration`. The repository owner must select **Settings → Pages → Source: GitHub Actions**, then rerun **Publish Root and Rice**. Files/recordings are uploaded; a successful live deployment is not yet verified.
+
+## Current narration update: fluent browser voices restored
+
+The owner preferred the earlier fluent browser narration to the robotic eSpeak recordings. The active build now uses `browser-audio.js` and excludes `audio/` and `static-audio.js` from the Pages artifact. Those files remain in Git history/repository as an archive only. Current website text is read dynamically, so recording regeneration and recording hashes are no longer required for the active reader.
+
+All seven sections and full built-in recipes retain sequential short-utterance narration, preferred natural voices, three locales, Read/Next/Stop and text-only visitor recipes. Browser support/installed voices still determine available voice quality; no identical-voice guarantee is made. Detailed current hosting/read-aloud instructions are in HOSTING.md and supersede the earlier prerecorded setup.
+
+Regression checks confirmed exact full text for every section and a complete updated recipe in all three locales, natural-voice preference, final steps/calories, Stop cancellation, visitor exclusion, no MP3 or speech API requests and no JavaScript errors. Speech completion was simulated; actual sound quality depends on the visitor's available voices.
