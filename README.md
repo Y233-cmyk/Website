@@ -27,3 +27,9 @@ Cooking references consulted include the public HowToCook guides for sweet-and-s
 Opening motion is adapted from GreenSock's https://codepen.io/GreenSock/pen/YzbPYMx . The horizontal recipe reveal is inspired by https://github.com/Aqro/gooey-hover-codrops . This is a lightweight SVG/CSS adaptation, not the original Three.js shader. Vendored TensorFlow, speech-commands and OpenCC files retain their licence notices. Offline recording generation uses eSpeak NG; only generated MP3 output is deployed, not the speech-tool binary.
 
 The public version hides local template-editor controls. Editor functionality is local/export-based, not authenticated remote site administration. Do not treat it as a secure public content-management backend.
+
+## Validation and deployment result
+
+All 96 MP3s decode fully. Browser checks verified all 96 text hashes, actual MP3 playback and end-of-playback in English/Cantonese/Mandarin with `speechSynthesis` unavailable, section Play/Stop, gallery-filter stability, model startup with a simulated microphone, text-only visitor submissions and stale-text rejection. Twelve simulated model-score sequences exercised English and Chinese Read→Stop/Next labels across the three interface locales, including interruption before the normal Read cooldown. These checks do not establish accuracy for a real speaker or accent; the exported Teachable Machine model determines that.
+
+The first GitHub Pages workflow reached publication configuration but GitHub rejected automatic site creation with `Resource not accessible by integration`. The repository owner must select **Settings → Pages → Source: GitHub Actions**, then rerun **Publish Root and Rice**. Files/recordings are uploaded; a successful live deployment is not yet verified.

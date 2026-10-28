@@ -37,3 +37,7 @@ The extraction script reads the actual rendered text, not an old copy. Generatio
 ## Visitor submissions
 
 Visitors may add, edit and delete their own local recipes, but those recipes are text-only and cannot invoke narration. Submissions are stored only in that browser; they are not a shared public collection or an account-based service. No audio or typed recipe text is sent to a third-party speech service.
+
+## Current repository activation
+
+The first workflow run could not create the Pages site because GitHub returned `Resource not accessible by integration`. This is a repository-owner setting, not an Azure or speech-service requirement. Select GitHub Actions under Settings → Pages once, then rerun the workflow. This agent cannot verify the public github.io URL from the restricted execution network; verify the deployment's reported URL in your browser after success.

@@ -15,7 +15,7 @@
  function findCurrent(){let best=0;const position=innerHeight*.4;sections.forEach((section,i)=>{if(section.getBoundingClientRect().top<=position)best=i});return sections[best].id==='voice'?1:best}
  document.getElementById('voice-button').addEventListener('click',()=>{current=findCurrent();if(sections[current].id==='voice')current=1;status.textContent=text('Microphone off. Choose a command or enable listening.','麥克風未開啟。可點選指令或啟用聆聽。')});
  addEventListener('scroll',()=>{if(dialog.open)current=findCurrent()},{passive:true});
- let readingSession=0,readingActive=false,stopCandidateSince=null;
+ let readingSession=0,readingActive=false,stopCandidateSince=null,interruptCandidate=null;
  function cancelReading(){readingSession++;readingActive=false;window.siteNarrator?.stop();window.speechSynthesis?.cancel()}
  function announceReading(message){status.textContent=message;const recipeStatus=document.querySelector('#recipe-reading-status');if(recipeStatus)recipeStatus.textContent=message}
  async function narrateTarget(kind,id){cancelReading();const token=readingSession;const blocks=siteNarrationContent.blocks(kind,id);if(!blocks.length){announceReading(text('Read-aloud is available for the website content and built-in recipes only.','朗讀只適用於網站內容和內置食譜。'));return}readingActive=true;stopCandidateSince=null;
@@ -78,13 +78,15 @@
   noiseSince=null;
   // The laptop speaker can be classified as a command by the microphone.
   // Keep protection active across the gaps between sentences, and require a
-  // sustained, very confident Stop rather than a single noisy prediction.
+  // sustained, confident Stop/Next rather than a single noisy prediction.
+  const interrupting=readingActive&&['stop','next'].includes(command);
   if(readingActive){
-   if(command!=='stop'||scores[best]<.97){stopCandidateSince=null;return}
-   if(stopCandidateSince===null){stopCandidateSince=now;return}
-   if(now-stopCandidateSince<750)return;
-  }else stopCandidateSince=null;
-  if(command===lastCommand||now-lastTime<1800)return;
+   if(!interrupting||scores[best]<.9){stopCandidateSince=null;interruptCandidate=null;return}
+   if(stopCandidateSince===null||interruptCandidate!==command){stopCandidateSince=now;interruptCandidate=command;return}
+   if(now-stopCandidateSince<350)return;
+  }else{stopCandidateSince=null;interruptCandidate=null}
+  // A deliberate Next or Stop must not wait for the normal Read cooldown.
+  if(command===lastCommand||(!interrupting&&now-lastTime<1800))return;
   lastCommand=command;lastTime=now;run(command);
  }
  async function disable(){
